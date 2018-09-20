@@ -13,6 +13,7 @@
 		87583EE3214BA0D700A08052 /* jLancaster.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 87583EE1214BA0D700A08052 /* jLancaster.xcdatamodeld */; };
 		87583EE5214BA0D800A08052 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87583EE4214BA0D800A08052 /* Assets.xcassets */; };
 		87583EE8214BA0D800A08052 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87583EE6214BA0D800A08052 /* LaunchScreen.storyboard */; };
+		87583EF0214BEA3700A08052 /* TimetableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87583EEF214BEA3700A08052 /* TimetableTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		87583EE4214BA0D800A08052 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87583EE7214BA0D800A08052 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87583EE9214BA0D800A08052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87583EEF214BEA3700A08052 /* TimetableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				87583EE6214BA0D800A08052 /* LaunchScreen.storyboard */,
 				87583EE9214BA0D800A08052 /* Info.plist */,
 				87583EE1214BA0D700A08052 /* jLancaster.xcdatamodeld */,
+				87583EEF214BEA3700A08052 /* TimetableTableViewController.swift */,
 			);
 			path = jLancaster;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				87583EDD214BA0D700A08052 /* ViewController.swift in Sources */,
 				87583EE3214BA0D700A08052 /* jLancaster.xcdatamodeld in Sources */,
 				87583EDB214BA0D700A08052 /* AppDelegate.swift in Sources */,
+				87583EF0214BEA3700A08052 /* TimetableTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VMLASLU96D;
 				INFOPLIST_FILE = jLancaster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VMLASLU96D;
 				INFOPLIST_FILE = jLancaster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
